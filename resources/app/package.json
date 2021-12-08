@@ -1,0 +1,11 @@
+{
+  "name": "fuzzy",
+  "version": "0.1.0",
+  "description": "Rank Project & its Parameters using fuzzy Logic",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lawani Oluwasheun",
+  "license": "ISC"
+}

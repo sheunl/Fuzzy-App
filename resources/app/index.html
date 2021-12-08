@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="st.css">
+    <script src="jq.js"></script>
+    <title>Fuzzy Logic Application</title>
+</head>
+<body>
+    <h1 class="refresh" title="Refresh Page">&#x1F3E0;</h1>
+    <h1 class="header">FUZZY LOGIC APP</h1>
+    <div class="main-body">
+    <div class="page-one">
+        <h2 class="sub-header">Enter Criteria</h2>
+        <div class="input-section">
+            <label for="experts">Number of Experts:</label> <input type="number" name="experts" id="experts" placeholder="0" width="2"><br><br>
+            <input type="text" name="parameter" placeholder="Input Criteria you want to measure" id="para">
+            <button id="ent">Enter</button>
+        </div>
+        <div class="display-section">
+            <ol class="parameter-list">
+                
+            </ol>
+            <button id="submit-para">Submit Parameters</button>
+        </div>
+    </div>
+
+    <div class="page-two">
+
+    </div>
+
+    <div class="calc-div">
+        <button class='calculate'> Compute Solution </button>
+    </div>
+
+    <div class="solution-output">
+
+    </div>
+    </div>
+
+    <template>
+    <div class="options">
+        <span class="input-box importance">
+            <b>Importance:</b> &nbsp; 
+            Very High <input type="radio" name="" value="vh">&nbsp; 
+            High <input type="radio" name="" value="h">&nbsp; 
+            Medium <input type="radio" name="" value="m">&nbsp; 
+            Low <input type="radio" name="" value="l">&nbsp; 
+            Very Low <input type="radio" name="" value="vl">
+        </span>
+        <span class="input-box impact">
+            <b>Impact:</b> &nbsp; 
+            Very High <input type="radio" name="" value="vh">&nbsp; 
+            High <input type="radio" name="" value="h">&nbsp; 
+            Medium <input type="radio" name="" value="m">&nbsp; 
+            Low <input type="radio" name="" value="l">&nbsp; 
+            Very Low <input type="radio" name="" value="vl"></span>
+    </div>
+    </template>
+
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <!-- normal script imports etc  -->
+    <script src="jq.js"></script>
+    <script src="enx.js"></script>  
+
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+    
+</body>
+</html>

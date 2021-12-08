@@ -1,0 +1,70 @@
+.del-para{
+    cursor: pointer;
+    display: block;
+}
+
+.expb { display: none;}
+
+.calculate{display: none;}
+
+body {
+    background: aliceblue;
+}
+
+h1.header {
+    text-align: center;
+}
+
+input#experts {
+    width: 35px;
+}
+
+input#para {
+    width: 250px;
+}
+
+button#submit-para {
+    width: 90px;
+}
+
+button.calculate {
+    width: 50%;
+    margin: 15px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid crimson;
+    color: crimson;
+}
+
+.question {
+    padding: 10px;
+    border: 2px crimson solid;
+}
+
+li.all-q {
+    margin-bottom: 10px;
+}
+
+span.my-para {
+    font-size: 20px;
+}
+
+.question:nth-child(odd) {
+    background-color: beige;
+}
+
+.solution-output { display: none;}
+.solution-output {
+    margin: 5px auto;
+    width: 50%;
+    font-size: 25px;
+    padding: 10px;
+    background-color: bisque;
+    border: 3px crimson solid;
+}
+
+h1.refresh {
+    cursor: pointer;
+    margin: 0px;
+}
